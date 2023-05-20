@@ -39,6 +39,7 @@ export default {
 <style scoped>
 header {
   background-color: bisque;
+  height: 15vh;
 }
 
 .containerHeader {
