@@ -5,16 +5,16 @@ export default {
   data() {
     return {
       voci: [
-        'ciao',
-        'ciaone',
-        'ciaone',
-        'ciaone',
-        'ciaone',
-        'ciaone',
-        'ciaone',
-        'ciaone',
-        'ciaone',
-        'ciaone',
+        'Characters',
+        'Comics',
+        'Moves',
+        'Tv',
+        'Games',
+        'Collectibles',
+        'Videos',
+        'Fans',
+        'News',
+        'Shop',
       ]
     }
   }
@@ -38,7 +38,6 @@ export default {
 
 <style scoped>
 header {
-  background-color: bisque;
   height: 15vh;
 }
 

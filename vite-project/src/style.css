@@ -15,7 +15,9 @@
 .align-items-center {
   align-items: center;
 }
-
+.list-none {
+  list-style-type: none;
+}
 .m-1 {
   margin: 1rem;
 }

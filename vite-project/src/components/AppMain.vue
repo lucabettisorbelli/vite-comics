@@ -7,23 +7,23 @@ export default {
             elements: [
                 {
                     logo: "../assets/buy-comics-digital-comics.png",
-                    text: 'bbb',
+                    text: 'DIGITAL COMICS',
                 },
                 {
-                    logo: "../assets/buy-merchandasing.png",
-                    text: 'bbnnnb',
+                    logo: "../assets/buy-comics-merchandise.png",
+                    text: 'DC MERCHANDISE',
                 },
                 {
                     logo: "../assets/buy-comics-shop-locator.png",
-                    text: 'bbnnnb',
+                    text: 'SUBSCRIPTION',
                 },
                 {
-                    logo: "../assets/buy-comics-subscription.png",
-                    text: 'bbnnnb',
+                    logo: "../assets/buy-comics-subscriptions.png",
+                    text: 'COMIC SHOP LOCATOR',
                 },
                 {
                     logo: "../assets/buy-comics-digital-comics.png",
-                    text: 'bbnnnb',
+                    text: 'DC POWER VISA',
                 },
 
             ]
@@ -40,7 +40,7 @@ export default {
             </div>
         </div>
         <div class="containerBottom">
-            <div class="boxedBottom d-flex align-items-center">
+            <div class="boxedBottom d-flex align-items-center justify-space-between">
                 <div v-for="element in elements" class="elementSrc">
                     <div class="imgLogo">
                         <img :src="element.logo" alt="Logo">
@@ -65,11 +65,11 @@ export default {
 }
 
 .containerTop {
-    background-color: black;
+    background-color: #1c1c1c;
 }
 
 .containerBottom {
-    background-color: aqua;
+    background-color: #0282f9;
     height: 15vh;
 }
 </style>
