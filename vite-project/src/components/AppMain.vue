@@ -5,30 +5,31 @@ export default {
         return {
             elements: [
                 {
-                    logo: `/public/buy-comics-digital-comics.png`,
+                    logo: `/buy-comics-digital-comics.png`,
                     text: 'DIGITAL COMICS',
                 },
                 {
-                    logo: `/public/buy-comics-merchandise.png`,
+                    logo: `/buy-comics-merchandise.png`,
                     text: 'DC MERCHANDISE',
                 },
                 {
-                    logo: `/public/buy-comics-shop-locator.png`,
+                    logo: `/buy-comics-shop-locator.png`,
                     text: 'SUBSCRIPTION',
                 },
                 {
-                    logo: `/public/buy-comics-subscriptions.png`,
+                    logo: `/buy-comics-subscriptions.png`,
                     text: 'COMIC SHOP LOCATOR',
                 },
                 {
-                    logo: `/public/buy-comics-digital-comics.png`,
+                    logo: `/buy-comics-digital-comics.png`,
                     text: 'DC POWER VISA',
                 },
-            ]
+            ],
         }
     }
 }
 </script>
+
 <template>
     <main>
         <div class="containerTop">
@@ -68,5 +69,19 @@ export default {
 .containerBottom {
     background-color: #0282f9;
     height: 15vh;
+}
+
+.elementSrc {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.imgLogo {
+    height: 60%;
+}
+
+.imgLogo img {
+    height: 100%;
 }
 </style>

@@ -138,7 +138,7 @@ export default {
 .imageDc {
     height: 100%;
     width: 100%;
-    background-image: url(../assets/dc-logo-bg.png);
+    background-image: url(/dc-logo-bg.png);
     background-size: cover;
     background-position: 30% 70%;
 }
