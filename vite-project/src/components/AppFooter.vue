@@ -79,19 +79,19 @@ export default {
                     </div>
                     <div class="loghiFollowed d-flex p-1">
                         <div class="p-1">
-                            <img src="../assets/footer-facebook.png" alt="">
+                            <img src="/footer-facebook.png" alt="">
                         </div>
                         <div class="p-1">
-                            <img src="../assets/footer-periscope.png" alt="">
+                            <img src="/footer-periscope.png" alt="">
                         </div>
                         <div class="p-1">
-                            <img src="../assets/footer-pinterest.png" alt="">
+                            <img src="/footer-pinterest.png" alt="">
                         </div>
                         <div class="p-1">
-                            <img src="../assets/footer-twitter.png" alt="">
+                            <img src="/footer-twitter.png" alt="">
                         </div>
                         <div class="p-1">
-                            <img src="../assets/footer-youtube.png" alt="">
+                            <img src="/footer-youtube.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@ export default {
 
 <style scoped>
 .containerLinks {
-    background-image: url(../assets/footer-bg.jpg);
+    background-image: url(/footer-bg.jpg);
     height: 40vh;
     color: white;
 }

@@ -25,7 +25,7 @@ export default {
   <header>
     <div class="containerHeader d-flex justify-space-between p-1 align-items-center">
       <div class="boxLogo">
-        <img src="../assets/dc-logo.png" alt="">
+        <img src="/dc-logo.png" alt="">
       </div>
       <div class="navBar d-flex">
         <div v-for="voce in voci" class="navSection">

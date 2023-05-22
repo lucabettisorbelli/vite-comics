@@ -9,7 +9,7 @@ export default {
 
 <template>
     <div>
-        <AppCards :cards="cards" />
+        {{ cards }}
+
     </div>
-    <!-- {{ cards }} -->
 </template>

@@ -93,7 +93,7 @@ export default {
 
 <template>
   <AppHeader />
-  <AppCards />
+  <!-- <AppCards :cards="cards" /> -->
   <AppMain />
   <AppFooter />
 </template>
