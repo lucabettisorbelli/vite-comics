@@ -2,7 +2,14 @@
 export default {
     name: "appCards",
     props: {
-        cards: []
+        cards: Array
     }
 }
 </script>
+
+<template>
+    <div>
+        <AppCards :cards="cards" />
+    </div>
+    <!-- {{ cards }} -->
+</template>
