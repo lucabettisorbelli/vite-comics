@@ -14,7 +14,7 @@ export default {
                     </div>
                     <div class="titleDcComics p-1">
                         <span>DC COMICS</span>
-                        <ul class="list-none">
+                        <ul class="list-none p-1">
                             <li>Characte</li>
                             <li>Comics</li>
                             <li>Movies</li>
@@ -28,7 +28,7 @@ export default {
                         <div class="titleShop p-1">
                             <span>SHOP</span>
                         </div>
-                        <ul class="list-none">
+                        <ul class="list-none p-1">
                             <li>DC</li>
                             <li>DC Collectibles</li>
                         </ul>
@@ -38,7 +38,7 @@ export default {
                     <div class="titleDc p-1">
                         <span>DC</span>
                     </div>
-                    <ul class="list-none">
+                    <ul class="list-none ">
                         <li>Terms Of use</li>
                         <li>Privacy policy (New)</li>
                         <li>Ad Choice:</li>
@@ -103,7 +103,6 @@ export default {
 <style scoped>
 .containerLinks {
     background-image: url(/footer-bg.jpg);
-    height: 40vh;
     color: white;
 }
 

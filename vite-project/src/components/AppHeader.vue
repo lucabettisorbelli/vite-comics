@@ -33,14 +33,13 @@ export default {
         </div>
       </div>
     </div>
+    <div class="containerImg">
+      <img src="/jumbotron.jpg" alt="">
+    </div>
   </header>
 </template>
 
 <style scoped>
-header {
-  height: 15vh;
-}
-
 .containerHeader {
   max-width: 1200px;
   margin: 0 auto;
@@ -52,6 +51,15 @@ header {
 
 .navSection>p {
   font-size: 1rem;
+}
+
+.containerImg {
+  height: 1000px;
+}
+
+.containerImg img {
+  height: 100%;
+  width: 100%;
 }
 </style>
 
